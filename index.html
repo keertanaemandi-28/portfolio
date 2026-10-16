@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emandi Sai Keertana | Java & Full-Stack Developer</title>
+<style>
+:root{--bg:#faf8f5;--card:#fff;--text:#1f2430;--muted:#5f6675;--accent:#c2410c;--line:#e8e2d9;--chip:#fdeee4;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14161c;--card:#1d2029;--text:#eceef3;--muted:#a1a8b8;--accent:#fb923c;--line:#2c303c;--chip:#2b2230;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14161c;--card:#1d2029;--text:#eceef3;--muted:#a1a8b8;--accent:#fb923c;--line:#2c303c;--chip:#2b2230;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Georgia,'Times New Roman',serif}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+nav{display:flex;gap:18px;justify-content:flex-end;padding:20px 0;font:14px system-ui,sans-serif;flex-wrap:wrap}
+nav a{color:var(--muted)}nav a:hover{color:var(--accent)}
+.hero{padding:40px 0 30px}
+.hero small{font:600 13px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(34px,7vw,56px);line-height:1.1;margin:10px 0 14px}
+.hero p{max-width:620px;color:var(--muted);font-size:18px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;font:14px system-ui,sans-serif}
+.btn{padding:9px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--text)}
+.btn.p{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:hover{border-color:var(--accent)}
+section{padding:34px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p,.card li{color:var(--muted);font-size:15px}
+.card ul{padding-left:18px;margin:8px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{background:var(--chip);color:var(--accent);font:12px system-ui,sans-serif;padding:3px 10px;border-radius:999px}
+.skills dt{font:600 13px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-top:14px}
+.skills dd{margin:2px 0 0}
+.meta{font:13px system-ui,sans-serif;color:var(--muted)}
+footer{padding:30px 0 40px;text-align:center;color:var(--muted);font:14px system-ui,sans-serif}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<small>Java · Spring Boot · Full-Stack</small>
+<h1>Emandi Sai Keertana</h1>
+<p>Computer Science undergraduate building secure backend systems, REST APIs and microservices, with hands-on AWS deployment experience.</p>
+<div class="links">
+<a class="btn p" href="mailto:keertanaemandi@gmail.com">Email me</a>
+<a class="btn" href="https://github.com/saikeertana28" target="_blank" rel="noopener">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/saikeertana-emandi" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://leetcode.com/keertana_28" target="_blank" rel="noopener">LeetCode</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<p>I'm skilled in Java, Spring Boot and full-stack development, with experience designing scalable, real-world applications. I enjoy problem solving (DSA on LeetCode and HackerRank), clean REST API design, JWT-based security, and shipping containerized apps to the cloud.</p>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<dl class="skills card">
+<dt>Languages</dt><dd>Java, Python, C, JavaScript, HTML, CSS</dd>
+<dt>Frameworks</dt><dd>Spring Boot, ReactJS, React Native</dd>
+<dt>Database</dt><dd>MySQL</dd>
+<dt>Cloud</dt><dd>AWS (EC2, ECS, ECR, RDS, IAM, CloudWatch)</dd>
+<dt>Concepts</dt><dd>DSA, OOP, REST APIs, Microservices, JWT Authentication</dd>
+<dt>Tools</dt><dd>Docker, Git, GitHub, IntelliJ IDEA, VS Code, Postman</dd>
+</dl>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Cloud-Hosted E-Commerce Platform</h3>
+<ul><li>Full-stack store with products, cart, orders and payment gateway integration.</li><li>JWT auth, role-based authorization, and temporary stock reservations to prevent overselling.</li><li>Dockerized and deployed on AWS ECS Fargate with load balancing and managed database.</li></ul>
+<div class="chips"><span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">React</span><span class="chip">MySQL</span><span class="chip">Docker</span><span class="chip">AWS ECS</span><span class="chip">ALB</span><span class="chip">RDS</span></div></div>
+
+<div class="card"><h3>PlayConnect</h3>
+<ul><li>Sports networking platform connecting athletes, coaches and enthusiasts.</li><li>Share posts and videos, showcase achievements, and use a sports marketplace.</li><li>Secure JWT authentication with role-based authorization.</li></ul>
+<p class="meta">Built at Vedic Vision Hackathon 2025</p>
+<div class="chips"><span class="chip">React Native</span><span class="chip">Spring Boot</span><span class="chip">JWT</span><span class="chip">MySQL</span></div></div>
+
+<div class="card"><h3>Quiz Management System</h3>
+<ul><li>Teachers create quizzes; students attempt them with instant evaluation and result tracking.</li><li>Microservices with Eureka Server for service discovery across Teacher and Student services.</li><li>Role-based access and secure authentication across services.</li></ul>
+<div class="chips"><span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">Microservices</span><span class="chip">Eureka</span></div></div>
+</div>
+<p class="meta">More code on <a href="https://github.com/saikeertana28" target="_blank" rel="noopener">my GitHub</a>.</p>
+</section>
+
+<section id="experience">
+<h2>Experience &amp; Achievements</h2>
+<div class="card"><h3>Intern, 1M1B Foundation</h3>
+<p class="meta">May 2025 – June 2025</p>
+<p>Built "Bus Route Optimizer", a navigation app recommending low-CO2 travel routes with real-time comparison by distance, traffic and carbon footprint.</p>
+<div class="chips"><span class="chip">React Native</span><span class="chip">JavaScript</span><span class="chip">Google Maps API</span></div></div>
+<div class="grid" style="margin-top:16px">
+<div class="card"><h3>TCS iON NQT</h3><p>Scored 78.71% in the National Qualifier Test (2026).</p></div>
+<div class="card"><h3>Vedic Vision Hackathon 2025</h3><p>Developed PlayConnect at the hackathon.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: <a href="mailto:keertanaemandi@gmail.com">keertanaemandi@gmail.com</a><br>
+Phone: <a href="tel:+918374791751">+91-8374791751</a><br>
+GitHub: <a href="https://github.com/saikeertana28" target="_blank" rel="noopener">github.com/saikeertana28</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/saikeertana-emandi" target="_blank" rel="noopener">linkedin.com/in/saikeertana-emandi</a><br>
+LeetCode: <a href="https://leetcode.com/keertana_28" target="_blank" rel="noopener">leetcode.com/keertana_28</a><br>
+HackerRank: keertanaemandi</p>
+</div>
+</section>
+<footer>© 2026 Emandi Sai Keertana</footer>
+</div>
+</body>
+</html>
